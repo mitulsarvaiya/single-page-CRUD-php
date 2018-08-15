@@ -1,0 +1,89 @@
+body{
+	font-size: 18px;
+}
+table{
+	width: 50%;
+	margin: 30px auto;
+	border-collapse: collapse;
+	text-align: left;
+}
+tr{
+	border-bottom: 1px solid lightblue;
+}
+td{
+	border:none;
+	height: 30px;
+	padding: 2px;
+}
+tr:hover{
+	background: grey;
+}
+form{
+	width: 45%;
+	margin: 40px auto;
+	text-align: left;
+	padding: 20px;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+.input-group{
+	margin:10px 0px 10px 10px;
+}
+.input-group label{
+	display: block;
+	text-align: left;
+	margin: 3px;
+}
+.input-group input{
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border-color: 1px solid skyblue;
+
+}
+.btn {
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: green;
+	border: none;
+	border-radius: 5px;
+}
+
+.edit_btn{
+	text-align: none;
+	padding: 2px 5px;
+	color: white;
+	border-radius: 3px;
+	background: green;
+}
+.del_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    color: white;
+    border-radius: 3px;
+    background: #800000;
+}
+.msg {
+    margin: 30px auto; 
+    padding: 10px; 
+    border-radius: 5px; 
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    width: 50%;
+    text-align: center;
+}
+.footer{
+	bottom: 0;
+	color: white;
+	background-color: lightblue;
+	text-align: right;
+	color: black;
+}
+.link{
+	text-decoration: none;
+	color: green;
+}
